@@ -8,6 +8,9 @@
 ## Usage
 In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which offers three options.
 
+![Alfred main screenshot](doc/images/alfred-various-screenshots.png?raw=true "")
+![Alfred submenu screenshot](doc/images/alfred-various-screenshots-submenu.png?raw=true "")
+
 1) Screenshot - Area
 2) Screenshot - Screen
 3) Screenshot - Window
