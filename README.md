@@ -17,7 +17,7 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
-This could be overriden, either by pressing the <key>⌘</key> key, or <key>⌥</key> key.
+This could be overriden, either by pressing the <kbd>⌘</kbd> key, or <kbd>⌥</kbd> key.
 
 The first one - <key>⌘</key> - instructs workflow to put a screenshot to clipboard.
 The second one - <key>⌥</key> - shares a screenshots via Dropbox and stores a sharing link to clipboard.
@@ -32,7 +32,7 @@ Screenshots files will be named according to the following pattern `screenshot_%
            S       Seconds, a number from 0 to 59.
            
 ### Dropbox
-There is no need to install a Dropbox software to you MacOS. The only requirement is to log into the web Dropbox account and create an access token for the workflow.
+There is no need to install a Dropbox software to you MacOS. The only requirement is to log into the [web Dropbox account][3] and create an access token for the workflow.
 
 
 
@@ -41,4 +41,5 @@ This token shall be placed in the workflow `DropboxAccessToken` variable.
 
 [1]: https://www.alfredapp.com/
 [2]: https://github.com/vookimedlo/alfred-various-screenshots/releases/latest
+[3]: https://www.dropbox.com/developers/apps
 
