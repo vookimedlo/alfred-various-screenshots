@@ -12,8 +12,9 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 2) Screenshot - Screen
 3) Screenshot - Window
 
-![Alfred menu screenshot](doc/images/alfred-various-screenshots-submenu.png?raw=true "")
-![Alfred submenu screenshot](doc/images/alfred-various-screenshots.png?raw=true "")
+![Alfred menu screenshot](doc/images/alfred-various-screenshots.png?raw=true "")
+![Alfred submenu screenshot](doc/images/alfred-various-screenshots-submenu.png?raw=true "")
+
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
 This could be overriden, either by pressing the <key>⌘</key> key, or <key>⌥</key> key.
