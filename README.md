@@ -35,6 +35,7 @@ Screenshots files will be named according to the following pattern `screenshot_%
 There is no need to install a Dropbox software to you MacOS. The only requirement is to log into the [web Dropbox account][3] and create an access token for the workflow.
 
 ![Dropbox App Creation](doc/images/dropbox-app-create.png?raw=true "")
+
 ![Dropbox App Key Creation](doc/images/dropbox-app-key.png?raw=true "")
 
 Such generated access token shall be placed to the workflow `DropboxAccessToken` variable.
