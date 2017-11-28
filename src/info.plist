@@ -314,7 +314,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>check your clipboard {query}</string>
+				<string>check your clipboard</string>
 				<key>title</key>
 				<string>Screenshot taken</string>
 			</dict>
@@ -500,7 +500,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>configure workflow to have correct access token</string>
+				<string>configure workflow to have a correct access token</string>
 				<key>title</key>
 				<string>Dropbox access token is missing</string>
 			</dict>
@@ -851,7 +851,7 @@ fi</string>
 		<string>DropboxAccessToken</string>
 	</array>
 	<key>version</key>
-	<string>2017.11.14</string>
+	<string>2017.11.28</string>
 	<key>webaddress</key>
 	<string>https://github.com/vookimedlo/alfred-various-screenshots</string>
 </dict>
