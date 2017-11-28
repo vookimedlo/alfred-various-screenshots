@@ -36,6 +36,8 @@ There is no need to install a Dropbox software to you MacOS. The only requiremen
 
 ![Dropbox App Creation](doc/images/dropbox-app-create.png?raw=true "")
 
+------------------------------
+
 ![Dropbox App Key Creation](doc/images/dropbox-app-key.png?raw=true "")
 
 Such generated access token shall be placed to the workflow `DropboxAccessToken` variable.
