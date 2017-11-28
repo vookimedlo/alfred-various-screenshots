@@ -42,6 +42,8 @@ There is no need to install a Dropbox software to you MacOS. The only requiremen
 
 Such generated access token shall be placed to the workflow `DropboxAccessToken` variable.
 
+![Alfre Variable](doc/images/alfred-various-screenshots-variable.png?raw=true "")
+
 [1]: https://www.alfredapp.com/
 [2]: https://github.com/vookimedlo/alfred-various-screenshots/releases/latest
 [3]: https://www.dropbox.com/developers/apps
