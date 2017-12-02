@@ -8,6 +8,29 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>074744A2-8581-484C-B35D-A46DD0CD877B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0EEE74D0-9988-4E91-A9E4-2BB43713BCCA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3B868C54-1B71-4F49-BE0E-54415E6AC099</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>23FD4532-3638-442B-ABAA-DB37678421CC</key>
 		<array>
 			<dict>
@@ -26,6 +49,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>AF5BF3E3-7A8E-4BD1-B945-872E04175CE2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3B868C54-1B71-4F49-BE0E-54415E6AC099</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DD39445-EF29-4D45-B1C2-395362BD99F7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -103,6 +139,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7DD39445-EF29-4D45-B1C2-395362BD99F7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>23FD4532-3638-442B-ABAA-DB37678421CC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9EE808AC-6F1F-4673-9DD9-4B7CC257501A</key>
 		<array>
 			<dict>
@@ -143,7 +192,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>23FD4532-3638-442B-ABAA-DB37678421CC</string>
+				<string>C4C04CC7-C11E-4CCE-B26D-4574A36C8F30</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -153,7 +202,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>C4C04CC7-C11E-4CCE-B26D-4574A36C8F30</string>
+				<string>074744A2-8581-484C-B35D-A46DD0CD877B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -202,27 +251,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>check your Desktop directory</string>
-				<key>title</key>
-				<string>Screenshot taken</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>9C7657DB-4D48-47BE-8031-BF74AA4223D4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -259,27 +287,42 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>fixedorder</key>
+				<key>lastpathcomponent</key>
 				<false/>
-				<key>items</key>
-				<string>[{"title":"Screenshot - Area","arg":"area","subtitle":"Takes screenshot of selected area"},{"title":"Screenshot - Screen","arg":"screen","subtitle":"Takes screenshot of whole screen"},{"title":"Screenshot - Window","arg":"window","subtitle":"Takes screenshot of selected window"}]</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>check your Desktop directory</string>
 				<key>title</key>
-				<string>Area, Screen, Window</string>
-				<key>withspace</key>
-				<false/>
+				<string>Screenshot taken</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>7DC021C1-4389-4C00-BB67-07A98860352E</string>
+			<string>9C7657DB-4D48-47BE-8031-BF74AA4223D4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>check your clipboard</string>
+				<key>title</key>
+				<string>Screenshot taken</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>62C97BB1-855D-4A43-885D-76C1AFCE7A47</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -307,21 +350,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
 				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>check your clipboard</string>
+				<key>items</key>
+				<string>[{"title":"Screenshot - Area","arg":"area","subtitle":"Takes screenshot of selected area"},{"title":"Screenshot - Screen","arg":"screen","subtitle":"Takes screenshot of whole screen"},{"title":"Screenshot - Window","arg":"window","subtitle":"Takes screenshot of selected window"}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
 				<key>title</key>
-				<string>Screenshot taken</string>
+				<string>Area, Screen, Window</string>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>62C97BB1-855D-4A43-885D-76C1AFCE7A47</string>
+			<string>7DC021C1-4389-4C00-BB67-07A98860352E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -368,7 +417,6 @@ fi</string>
 				<key>script</key>
 				<string>if [ -z ${DropboxAccessToken} ]; then echo "no_dropbox_access_token"; exit 0;  fi
 
-
 readonly filename=`date '+screenshot_%Y-%m-%d_%H-%M-%S.png'`
 readonly tmpdir=$(mktemp -d "${TMPDIR:-/tmp/}$(basename $0).XXXXXXXXXXXX")
 readonly filenamepath="${tmpdir}/${filename}"
@@ -382,23 +430,23 @@ else
 fi
 
 if [ $? -eq 0 ]; then
-	readonly UPLOAD=`curl -sX POST https://content.dropboxapi.com/2/files/upload \
---header "Authorization: Bearer ${DropboxAccessToken}" \
---header "Dropbox-API-Arg: {\"path\": \"/${filename}\",\"mode\": \"add\",\"autorename\": true,\"mute\": false}" \
---header "Content-Type: application/octet-stream" \
---data-binary @${filenamepath}`
 
-	if [ $? -eq 0 ]; then
-		readonly JSON=`curl -s -X POST https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings \
---header "Authorization: Bearer ${DropboxAccessToken}" \
---header "Content-Type: application/json" \
---data "{\"path\": \"/${filename}\",\"settings\": {\"requested_visibility\": \"public\"}}"`
+cat &lt;&lt;End-of-message
+{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+    },
+    "variables" : {
+      "filename": "$filename",
+      "filenamepath": "$filenamepath"
+    }
+  }
+}
+End-of-message
 
-		if [ $? -eq 0 ]; then
-			readonly LINK=`grep -Eo 'https://www.dropbox.com(/[[:graph:]]*)?' &lt;&lt;&lt; $JSON | cut -d\" -f1`
-			echo "$LINK"
-		fi
-	fi
+else
+	echo -n ""
 fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -424,33 +472,35 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>sharing link is in a clipboard</string>
+				<string>configure workflow to have a correct access token</string>
 				<key>title</key>
-				<string>Screenshot taken</string>
+				<string>Dropbox access token is missing</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>386C279B-1C5E-4F09-ADB8-E3E7B48E9777</string>
+			<string>43EC0D2C-4AF3-4CD0-8426-813243D78512</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
 				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>no_dropbox_access_token</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>6AE765A0-6AB6-4733-90D4-EA4A96F15692</string>
+			<string>C4C04CC7-C11E-4CCE-B26D-4574A36C8F30</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -474,40 +524,21 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputstring</key>
-				<string></string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>http.+</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>23FD4532-3638-442B-ABAA-DB37678421CC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
-				<true/>
+				<false/>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>configure workflow to have a correct access token</string>
+				<string>Please wait ...</string>
 				<key>title</key>
-				<string>Dropbox access token is missing</string>
+				<string>Screenshot is being uploaded to Dropbox</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>43EC0D2C-4AF3-4CD0-8426-813243D78512</string>
+			<string>0EEE74D0-9988-4E91-A9E4-2BB43713BCCA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -612,14 +643,129 @@ fi</string>
 				<key>matchcasesensitive</key>
 				<false/>
 				<key>matchmode</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>matchstring</key>
 				<string>no_dropbox_access_token</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>C4C04CC7-C11E-4CCE-B26D-4574A36C8F30</string>
+			<string>074744A2-8581-484C-B35D-A46DD0CD877B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>sharing link is in a clipboard</string>
+				<key>title</key>
+				<string>Screenshot taken</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>386C279B-1C5E-4F09-ADB8-E3E7B48E9777</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly UPLOAD=`curl -sX POST https://content.dropboxapi.com/2/files/upload \
+--header "Authorization: Bearer ${DropboxAccessToken}" \
+--header "Dropbox-API-Arg: {\"path\": \"/${filename}\",\"mode\": \"add\",\"autorename\": true,\"mute\": false}" \
+--header "Content-Type: application/octet-stream" \
+--data-binary @${filenamepath}`
+
+if [ $? -eq 0 ]; then
+	readonly JSON=`curl -s -X POST https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings \
+--header "Authorization: Bearer ${DropboxAccessToken}" \
+--header "Content-Type: application/json" \
+--data "{\"path\": \"/${filename}\",\"settings\": {\"requested_visibility\": \"public\"}}"`
+
+	if [ $? -eq 0 ]; then
+		readonly LINK=`grep -Eo 'https://www.dropbox.com(/[[:graph:]]*)?' &lt;&lt;&lt; $JSON | cut -d\" -f1`
+		echo "$LINK"
+	fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3B868C54-1B71-4F49-BE0E-54415E6AC099</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6AE765A0-6AB6-4733-90D4-EA4A96F15692</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>7DD39445-EF29-4D45-B1C2-395362BD99F7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>http.+</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>23FD4532-3638-442B-ABAA-DB37678421CC</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -665,9 +811,33 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Icon taken from: https://openclipart.org/detail/809/computer-screen</string>
+	<string>See https://github.com/vookimedlo/alfred-various-screenshots
+
+Icon taken from: https://openclipart.org/detail/809/computer-screen</string>
 	<key>uidata</key>
 	<dict>
+		<key>074744A2-8581-484C-B35D-A46DD0CD877B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Screenshots - Dropbox - Token check</string>
+			<key>xpos</key>
+			<integer>800</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
+		<key>0EEE74D0-9988-4E91-A9E4-2BB43713BCCA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Screenshots - upload in progress</string>
+			<key>xpos</key>
+			<integer>920</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
 		<key>23FD4532-3638-442B-ABAA-DB37678421CC</key>
 		<dict>
 			<key>colorindex</key>
@@ -675,9 +845,9 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Dropbox - HTTP check</string>
 			<key>xpos</key>
-			<integer>790</integer>
+			<integer>1250</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>620</integer>
 		</dict>
 		<key>2B370E8D-AC3B-41CC-BE27-AF0544ADACE7</key>
 		<dict>
@@ -697,9 +867,20 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Dropbox</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>590</integer>
+		</dict>
+		<key>3B868C54-1B71-4F49-BE0E-54415E6AC099</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Screenshots - Dropbox upload</string>
+			<key>xpos</key>
+			<integer>920</integer>
+			<key>ypos</key>
+			<integer>590</integer>
 		</dict>
 		<key>43EC0D2C-4AF3-4CD0-8426-813243D78512</key>
 		<dict>
@@ -708,9 +889,9 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Dropbox</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 			<key>ypos</key>
-			<integer>440</integer>
+			<integer>300</integer>
 		</dict>
 		<key>62C97BB1-855D-4A43-885D-76C1AFCE7A47</key>
 		<dict>
@@ -719,7 +900,7 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Clipboard</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 			<key>ypos</key>
 			<integer>160</integer>
 		</dict>
@@ -741,9 +922,9 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Dropbox</string>
 			<key>xpos</key>
-			<integer>940</integer>
+			<integer>1340</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>590</integer>
 		</dict>
 		<key>7060FFC2-1C0C-44DC-A854-ED4C27CFEED0</key>
 		<dict>
@@ -763,9 +944,9 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Dropbox</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 			<key>ypos</key>
-			<integer>580</integer>
+			<integer>730</integer>
 		</dict>
 		<key>7DC021C1-4389-4C00-BB67-07A98860352E</key>
 		<dict>
@@ -776,6 +957,17 @@ fi</string>
 			<key>ypos</key>
 			<integer>160</integer>
 		</dict>
+		<key>7DD39445-EF29-4D45-B1C2-395362BD99F7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Screenshots - Dropbox - Check for errors</string>
+			<key>xpos</key>
+			<integer>1130</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
 		<key>9C7657DB-4D48-47BE-8031-BF74AA4223D4</key>
 		<dict>
 			<key>colorindex</key>
@@ -783,7 +975,7 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Files</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1490</integer>
 			<key>ypos</key>
 			<integer>20</integer>
 		</dict>
@@ -803,18 +995,18 @@ fi</string>
 			<key>note</key>
 			<string>Screenshots - Dropbox - Error</string>
 			<key>xpos</key>
-			<integer>660</integer>
+			<integer>1130</integer>
 			<key>ypos</key>
-			<integer>610</integer>
+			<integer>760</integer>
 		</dict>
 		<key>AF5BF3E3-7A8E-4BD1-B945-872E04175CE2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>note</key>
-			<string>Screenshots - Dropbox - Check for errors</string>
+			<string>Screenshots - Check for errors - Token</string>
 			<key>xpos</key>
-			<integer>660</integer>
+			<integer>640</integer>
 			<key>ypos</key>
 			<integer>330</integer>
 		</dict>
@@ -823,11 +1015,11 @@ fi</string>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>note</key>
-			<string>Screenshots - Dropbox - Error</string>
+			<string>Screenshots - Dropbox - Token Error</string>
 			<key>xpos</key>
-			<integer>790</integer>
+			<integer>800</integer>
 			<key>ypos</key>
-			<integer>470</integer>
+			<integer>330</integer>
 		</dict>
 		<key>DE968F66-122C-4D8E-8677-3DD1F0589247</key>
 		<dict>
@@ -851,7 +1043,7 @@ fi</string>
 		<string>DropboxAccessToken</string>
 	</array>
 	<key>version</key>
-	<string>2017.11.28</string>
+	<string>2017.12.02</string>
 	<key>webaddress</key>
 	<string>https://github.com/vookimedlo/alfred-various-screenshots</string>
 </dict>
