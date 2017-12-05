@@ -2,7 +2,7 @@
 [Alfred 3][1] workflow for taking various screenshots.
 
 ## Installation
-1) Install [alfred-various-screenshots][2] wokflow.
+1) Install [alfred-various-screenshots][2] workflow.
 2) All further updates are handled automatically.
 
 ## Usage
@@ -17,10 +17,10 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
-This could be overriden, either by pressing the <kbd>⌘</kbd> key, or <kbd>⌥</kbd> key.
+This could be overridden, either by pressing the <kbd>⌘</kbd> key, or <kbd>⌥</kbd> key.
 
 The first one - <key>⌘</key> - instructs workflow to put a screenshot to clipboard.
-The second one - <key>⌥</key> - shares a screenshots via Dropbox and stores a sharing link to clipboard.
+The second one - <key>⌥</key> - shares screenshots via Dropbox and stores a sharing link to clipboard.
 
 Screenshots files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
 
@@ -42,7 +42,7 @@ There is no need to install a Dropbox software to you MacOS. The only requiremen
 
 Such generated access token shall be placed to the workflow `DropboxAccessToken` variable.
 
-![Alfre Variable](doc/images/alfred-various-screenshots-variable.png?raw=true "")
+![Alfred Variable](doc/images/alfred-various-screenshots-variable.png?raw=true "")
 
 [1]: https://www.alfredapp.com/
 [2]: https://github.com/vookimedlo/alfred-various-screenshots/releases/latest
