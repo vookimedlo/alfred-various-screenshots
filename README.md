@@ -32,7 +32,7 @@ Screenshots files will be named according to the following pattern `screenshot_%
            S       Seconds, a number from 0 to 59.
            
 ### Dropbox
-There is no need to install a Dropbox software to you MacOS. The only requirement is to log into the [web Dropbox account][3] and create an access token for the workflow.
+There is no need to install a Dropbox software to your MacOS. The only requirement is to log into the [web Dropbox account][3] and create an access token for the workflow.
 
 ![Dropbox App Creation](doc/images/dropbox-app-create.png?raw=true "")
 
