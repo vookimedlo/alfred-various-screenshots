@@ -256,8 +256,14 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>readonly filename=`date '+screenshot_%Y-%m-%d_%H-%M-%S.png'`
-readonly filenamepath="$HOME/Desktop/$filename"
+				<string>DefaultLocalScreenshotFolder="${DefaultLocalScreenshotFolder:-$HOME/Desktop}"
+
+# Expand ~, since it not works in Alfred
+#
+DefaultLocalScreenshotFolder=`echo "$DefaultLocalScreenshotFolder" | perl -pne 's/^~/$ENV{HOME}/'`
+
+readonly filename=`date '+screenshot_%Y-%m-%d_%H-%M-%S.png'`
+readonly filenamepath="$DefaultLocalScreenshotFolder/$filename"
 
 if [ {query} = "area" ]; then
 	screencapture -is "$filenamepath" &gt;/dev/null 1&gt;&amp;2
@@ -294,7 +300,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>check your Desktop directory</string>
+				<string>check your {var:DefaultScreenshotLocalFolder} directory</string>
 				<key>title</key>
 				<string>Screenshot taken</string>
 			</dict>
@@ -353,7 +359,7 @@ fi</string>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
@@ -361,11 +367,11 @@ fi</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Takes screenshot</string>
 				<key>title</key>
-				<string>Area, Screen, Window</string>
+				<string>Various screenshots...</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.listfilter</string>
@@ -813,7 +819,7 @@ fi</string>
 	<key>readme</key>
 	<string>See https://github.com/vookimedlo/alfred-various-screenshots
 
-Icon taken from: https://openclipart.org/detail/809/computer-screen</string>
+Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</string>
 	<key>uidata</key>
 	<dict>
 		<key>074744A2-8581-484C-B35D-A46DD0CD877B</key>
@@ -1035,6 +1041,8 @@ Icon taken from: https://openclipart.org/detail/809/computer-screen</string>
 	</dict>
 	<key>variables</key>
 	<dict>
+		<key>DefaultLocalScreenshotFolder</key>
+		<string>~/Desktop</string>
 		<key>DropboxAccessToken</key>
 		<string></string>
 	</dict>
@@ -1043,7 +1051,7 @@ Icon taken from: https://openclipart.org/detail/809/computer-screen</string>
 		<string>DropboxAccessToken</string>
 	</array>
 	<key>version</key>
-	<string>2017.12.02</string>
+	<string>2018.05.01</string>
 	<key>webaddress</key>
 	<string>https://github.com/vookimedlo/alfred-various-screenshots</string>
 </dict>
