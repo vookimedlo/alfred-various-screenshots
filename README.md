@@ -31,6 +31,11 @@ Screenshots files will be named according to the following pattern `screenshot_%
            M       Minutes, a number from 0 to 59.
            S       Seconds, a number from 0 to 59.
            
+ 
+Default local screenshots folder `~/Desktop` can be changed by the workflow `DefaultLocalScreenshotFolder` variable.
+
+![Alfre Variable Local](doc/images/alfred-various-screenshots-variable-local.png?raw=true "")
+           
 ### Dropbox
 There is no need to install a Dropbox software to your MacOS. The only requirement is to log into the [web Dropbox account][3] and create an access token for the workflow.
 
