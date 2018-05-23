@@ -3,6 +3,7 @@
 
 Currently supported storages are the following.
 - Local drive
+- Clipboard
 - [Dropbox][4] service with an ability to share a link on the uploaded screenshot.
 - [Transfer.sh][5] service with an ability to share a link on the uploaded screenshot.
 
