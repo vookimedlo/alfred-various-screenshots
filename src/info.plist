@@ -31,6 +31,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1756A12B-EC17-4238-AE99-CF5F8A03DE75</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2F698680-E525-4370-B1DA-629AF817BF46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>23FD4532-3638-442B-ABAA-DB37678421CC</key>
 		<array>
 			<dict>
@@ -49,6 +62,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>AF5BF3E3-7A8E-4BD1-B945-872E04175CE2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F698680-E525-4370-B1DA-629AF817BF46</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC9D89F7-4CDE-4E21-9442-563AD93D1B83</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -134,7 +160,17 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Put screenshots to dropbox and put a share link to clipboard.</string>
+				<string>Put screenshots to the DropBox and put a sharing link to clipboard.</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C88AEA7D-FAFC-4594-AE18-768D19E6C5CE</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Put screenshots to the Transfer.sh and put a sharing link to clipboard.</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -144,6 +180,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>23FD4532-3638-442B-ABAA-DB37678421CC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>84450C8B-3618-4843-B4F1-E4535895FBA7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCD44130-EE9C-4D56-B21B-CE12A08A7FF3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -167,6 +216,42 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7060FFC2-1C0C-44DC-A854-ED4C27CFEED0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AC9D89F7-4CDE-4E21-9442-563AD93D1B83</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>47C1B3C7-D477-4028-8387-B7F5045CCFF6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AD9246A9-4A23-4FE5-A95B-A388A079A609</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>30907D28-AA74-4E8F-83EF-3873FABC2477</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CD92E3A7-6643-490B-946A-5060CB4884E4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -216,6 +301,42 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>43EC0D2C-4AF3-4CD0-8426-813243D78512</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C88AEA7D-FAFC-4594-AE18-768D19E6C5CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD9246A9-4A23-4FE5-A95B-A388A079A609</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CD92E3A7-6643-490B-946A-5060CB4884E4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1756A12B-EC17-4238-AE99-CF5F8A03DE75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>84450C8B-3618-4843-B4F1-E4535895FBA7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -338,7 +459,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>ss</string>
+				<string>{var:keyword}</string>
 				<key>subtext</key>
 				<string>Takes screenshot</string>
 				<key>text</key>
@@ -644,6 +765,59 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>readonly filename=`date '+screenshot_%Y-%m-%d_%H-%M-%S.png'`
+readonly tmpdir=$(mktemp -d "${TMPDIR:-/tmp/}$(basename $0).XXXXXXXXXXXX")
+readonly filenamepath="${tmpdir}/${filename}"
+
+if [ {query} = "area" ]; then
+	screencapture -is "${filenamepath}"
+elif [ {query} = "window" ]; then
+	screencapture -iW "${filenamepath}"
+else
+	screencapture -S "${filenamepath}"
+fi
+
+if [ $? -eq 0 ]; then
+
+cat &lt;&lt;End-of-message
+{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+    },
+    "variables" : {
+      "filename": "$filename",
+      "filenamepath": "$filenamepath"
+    }
+  }
+}
+End-of-message
+
+else
+	echo -n ""
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C88AEA7D-FAFC-4594-AE18-768D19E6C5CE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string></string>
 				<key>matchcasesensitive</key>
@@ -670,7 +844,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>sharing link is in a clipboard</string>
+				<string>a sharing link is in a clipboard</string>
 				<key>title</key>
 				<string>Screenshot taken</string>
 			</dict>
@@ -799,6 +973,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Please wait ...</string>
+				<key>title</key>
+				<string>Screenshot is being uploaded to Transfer.sh</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>30907D28-AA74-4E8F-83EF-3873FABC2477</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string></string>
 				<key>matchcasesensitive</key>
@@ -812,6 +1007,167 @@ fi</string>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
 			<string>AE5AA1FB-C8BE-4F48-A262-57C8A618E977</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>AD9246A9-4A23-4FE5-A95B-A388A079A609</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>a sharing link is in a clipboard</string>
+				<key>title</key>
+				<string>Screenshot taken</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>47C1B3C7-D477-4028-8387-B7F5045CCFF6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly LINK=`curl --upload-file ${filenamepath} https://transfer.sh/`
+if [ $? -eq 0 ]; then
+	echo "$LINK"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CD92E3A7-6643-490B-946A-5060CB4884E4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AC9D89F7-4CDE-4E21-9442-563AD93D1B83</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>http.+</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>2F698680-E525-4370-B1DA-629AF817BF46</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>1756A12B-EC17-4238-AE99-CF5F8A03DE75</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>unknown error</string>
+				<key>title</key>
+				<string>Transfer.sh screenshot failure</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CCD44130-EE9C-4D56-B21B-CE12A08A7FF3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string></string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^$|^\n</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>84450C8B-3618-4843-B4F1-E4535895FBA7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -844,6 +1200,17 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 			<key>ypos</key>
 			<integer>440</integer>
 		</dict>
+		<key>1756A12B-EC17-4238-AE99-CF5F8A03DE75</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh - Check for errors</string>
+			<key>xpos</key>
+			<integer>1130</integer>
+			<key>ypos</key>
+			<integer>920</integer>
+		</dict>
 		<key>23FD4532-3638-442B-ABAA-DB37678421CC</key>
 		<dict>
 			<key>colorindex</key>
@@ -865,6 +1232,28 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 			<integer>470</integer>
 			<key>ypos</key>
 			<integer>300</integer>
+		</dict>
+		<key>2F698680-E525-4370-B1DA-629AF817BF46</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh - HTTP check</string>
+			<key>xpos</key>
+			<integer>1250</integer>
+			<key>ypos</key>
+			<integer>920</integer>
+		</dict>
+		<key>30907D28-AA74-4E8F-83EF-3873FABC2477</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - upload in progress</string>
+			<key>xpos</key>
+			<integer>920</integer>
+			<key>ypos</key>
+			<integer>740</integer>
 		</dict>
 		<key>386C279B-1C5E-4F09-ADB8-E3E7B48E9777</key>
 		<dict>
@@ -898,6 +1287,17 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 			<integer>1490</integer>
 			<key>ypos</key>
 			<integer>300</integer>
+		</dict>
+		<key>47C1B3C7-D477-4028-8387-B7F5045CCFF6</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh</string>
+			<key>xpos</key>
+			<integer>1490</integer>
+			<key>ypos</key>
+			<integer>890</integer>
 		</dict>
 		<key>62C97BB1-855D-4A43-885D-76C1AFCE7A47</key>
 		<dict>
@@ -974,6 +1374,17 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 			<key>ypos</key>
 			<integer>620</integer>
 		</dict>
+		<key>84450C8B-3618-4843-B4F1-E4535895FBA7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh - Error</string>
+			<key>xpos</key>
+			<integer>1130</integer>
+			<key>ypos</key>
+			<integer>1070</integer>
+		</dict>
 		<key>9C7657DB-4D48-47BE-8031-BF74AA4223D4</key>
 		<dict>
 			<key>colorindex</key>
@@ -993,6 +1404,28 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>160</integer>
+		</dict>
+		<key>AC9D89F7-4CDE-4E21-9442-563AD93D1B83</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh</string>
+			<key>xpos</key>
+			<integer>1340</integer>
+			<key>ypos</key>
+			<integer>890</integer>
+		</dict>
+		<key>AD9246A9-4A23-4FE5-A95B-A388A079A609</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Check for errors - Token</string>
+			<key>xpos</key>
+			<integer>800</integer>
+			<key>ypos</key>
+			<integer>770</integer>
 		</dict>
 		<key>AE5AA1FB-C8BE-4F48-A262-57C8A618E977</key>
 		<dict>
@@ -1027,6 +1460,39 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 			<key>ypos</key>
 			<integer>330</integer>
 		</dict>
+		<key>C88AEA7D-FAFC-4594-AE18-768D19E6C5CE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh</string>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
+		<key>CCD44130-EE9C-4D56-B21B-CE12A08A7FF3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh</string>
+			<key>xpos</key>
+			<integer>1490</integer>
+			<key>ypos</key>
+			<integer>1040</integer>
+		</dict>
+		<key>CD92E3A7-6643-490B-946A-5060CB4884E4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Screenshots - Transfer.sh upload</string>
+			<key>xpos</key>
+			<integer>920</integer>
+			<key>ypos</key>
+			<integer>890</integer>
+		</dict>
 		<key>DE968F66-122C-4D8E-8677-3DD1F0589247</key>
 		<dict>
 			<key>colorindex</key>
@@ -1045,13 +1511,15 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 		<string>~/Desktop</string>
 		<key>DropboxAccessToken</key>
 		<string></string>
+		<key>keyword</key>
+		<string>ss</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>DropboxAccessToken</string>
 	</array>
 	<key>version</key>
-	<string>2018.05.01</string>
+	<string>2018.05.XX</string>
 	<key>webaddress</key>
 	<string>https://github.com/vookimedlo/alfred-various-screenshots</string>
 </dict>
