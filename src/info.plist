@@ -150,7 +150,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Put screenshots to clipboard.</string>
+				<string>Puts a screenshot to the clipboard.</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -160,7 +160,7 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Put screenshots to the DropBox and put a sharing link to clipboard.</string>
+				<string>Puts a screenshot to the DropBox and puts a sharing link to the clipboard.</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -170,7 +170,7 @@
 				<key>modifiers</key>
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
-				<string>Put screenshots to the Transfer.sh and put a sharing link to clipboard.</string>
+				<string>Puts a screenshot to the Transfer.sh and puts a sharing link to the clipboard.</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -461,7 +461,7 @@ fi</string>
 				<key>keyword</key>
 				<string>{var:keyword}</string>
 				<key>subtext</key>
-				<string>Takes screenshot</string>
+				<string>Takes a screenshot</string>
 				<key>text</key>
 				<string>Various screenshots...</string>
 				<key>withspace</key>
@@ -484,11 +484,11 @@ fi</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Screenshot - Area","arg":"area","subtitle":"Takes screenshot of selected area"},{"title":"Screenshot - Screen","arg":"screen","subtitle":"Takes screenshot of whole screen"},{"title":"Screenshot - Window","arg":"window","subtitle":"Takes screenshot of selected window"}]</string>
+				<string>[{"title":"Screenshot - Area","arg":"area","subtitle":"Takes a screenshot of the selected area"},{"title":"Screenshot - Screen","arg":"screen","subtitle":"Takes a screenshot of the whole screen"},{"title":"Screenshot - Window","arg":"window","subtitle":"Takes a screenshot of the selected window"}]</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Takes screenshot</string>
+				<string>Takes a screenshot</string>
 				<key>title</key>
 				<string>Various screenshots...</string>
 				<key>withspace</key>
@@ -844,7 +844,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>a sharing link is in a clipboard</string>
+				<string>a sharing link is in the clipboard</string>
 				<key>title</key>
 				<string>Screenshot taken</string>
 			</dict>
@@ -1039,7 +1039,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>a sharing link is in a clipboard</string>
+				<string>a sharing link is in the clipboard</string>
 				<key>title</key>
 				<string>Screenshot taken</string>
 			</dict>
@@ -1356,6 +1356,8 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 		</dict>
 		<key>7DC021C1-4389-4C00-BB67-07A98860352E</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Screenshots</string>
 			<key>xpos</key>
@@ -1398,6 +1400,8 @@ Icon taken from: https://openclipart.org/detail/301214/screenshot-icon-umber</st
 		</dict>
 		<key>9EE808AC-6F1F-4673-9DD9-4B7CC257501A</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Screenshots</string>
 			<key>xpos</key>
