@@ -24,9 +24,9 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
 This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, or <kbd>⌃</kbd>.
 
-The first one - <key>⌘</key> - instructs workflow to put a screenshot to clipboard.
-The second one - <key>⌥</key> - shares a screenshot via Dropbox and stores a sharing link to the clipboard.
-The last one - <key>⌃</key> - shares a screenshot via Transfer.sh and stores a sharing link to the clipboard.
+- <key>⌘</key> - instructs the workflow to put a screenshot to the clipboard.
+- <key>⌥</key> - shares a screenshot via Dropbox and stores a sharing link to the clipboard.
+- <key>⌃</key> - shares a screenshot via Transfer.sh and stores a sharing link to the clipboard.
 
 Screenshot files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
 
@@ -38,7 +38,7 @@ Screenshot files will be named according to the following pattern `screenshot_%Y
            S       Seconds, a number from 0 to 59.
            
  
-Default local screenshots folder `~/Desktop` can be changed by the workflow `DefaultLocalScreenshotFolder` variable.
+Default local screenshot folder `~/Desktop` can be changed by the workflow `DefaultLocalScreenshotFolder` variable.
 
 ![Alfre Variable Local](doc/images/alfred-various-screenshots-variable-local.png?raw=true "")
            
