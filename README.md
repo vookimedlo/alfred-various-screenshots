@@ -1,6 +1,11 @@
 # alfred-various-screenshots
 [Alfred 3][1] workflow for taking various screenshots.
 
+Currently supported storages are the following.
+- Local drive
+- Dropbox service with an ability to share a link on the uploaded screenshot.
+- Transfer.sh service with an ability to share a link on the uploaded screenshot.
+
 ## Installation
 1) Install [alfred-various-screenshots][2] workflow.
 2) All further updates are handled automatically.
@@ -17,12 +22,13 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
-This could be overridden, either by pressing the <kbd>⌘</kbd> key, or <kbd>⌥</kbd> key.
+This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, or <kbd>⌃</kbd>.
 
 The first one - <key>⌘</key> - instructs workflow to put a screenshot to clipboard.
-The second one - <key>⌥</key> - shares screenshots via Dropbox and stores a sharing link to clipboard.
+The second one - <key>⌥</key> - shares a screenshot via Dropbox and stores a sharing link to the clipboard.
+The last one - <key>⌃</key> - shares a screenshot via Transfer.sh and stores a sharing link to the clipboard.
 
-Screenshots files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
+Screenshot files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
 
            Y       Year in full form (e.g., 2006).
            m       Numeric month, a number from 1 to 12.
