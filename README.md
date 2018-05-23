@@ -3,8 +3,8 @@
 
 Currently supported storages are the following.
 - Local drive
-- Dropbox service with an ability to share a link on the uploaded screenshot.
-- Transfer.sh service with an ability to share a link on the uploaded screenshot.
+- [Dropbox][4] service with an ability to share a link on the uploaded screenshot.
+- [Transfer.sh][5] service with an ability to share a link on the uploaded screenshot.
 
 ## Installation
 1) Install [alfred-various-screenshots][2] workflow.
@@ -58,3 +58,5 @@ Such generated access token shall be placed to the workflow `DropboxAccessToken`
 [1]: https://www.alfredapp.com/
 [2]: https://github.com/vookimedlo/alfred-various-screenshots/releases/latest
 [3]: https://www.dropbox.com/developers/apps
+[4]: https://www.dropbox.com/
+[5]: https://transfer.sh/
