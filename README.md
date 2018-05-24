@@ -1,6 +1,12 @@
 # alfred-various-screenshots
 [Alfred 3][1] workflow for taking various screenshots.
 
+Currently supported storages are the following.
+- Local drive
+- Clipboard
+- [Dropbox][4] service with an ability to share a link on the uploaded screenshot.
+- [Transfer.sh][5] service with an ability to share a link on the uploaded screenshot.
+
 ## Installation
 1) Install [alfred-various-screenshots][2] workflow.
 2) All further updates are handled automatically.
@@ -17,12 +23,13 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
-This could be overridden, either by pressing the <kbd>⌘</kbd> key, or <kbd>⌥</kbd> key.
+This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, or <kbd>⌃</kbd>.
 
-The first one - <key>⌘</key> - instructs workflow to put a screenshot to clipboard.
-The second one - <key>⌥</key> - shares screenshots via Dropbox and stores a sharing link to clipboard.
+- <key>⌘</key> - instructs the workflow to put a screenshot to the clipboard.
+- <key>⌥</key> - shares a screenshot via Dropbox and stores a sharing link to the clipboard.
+- <key>⌃</key> - shares a screenshot via Transfer.sh and stores a sharing link to the clipboard.
 
-Screenshots files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
+Screenshot files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
 
            Y       Year in full form (e.g., 2006).
            m       Numeric month, a number from 1 to 12.
@@ -32,7 +39,7 @@ Screenshots files will be named according to the following pattern `screenshot_%
            S       Seconds, a number from 0 to 59.
            
  
-Default local screenshots folder `~/Desktop` can be changed by the workflow `DefaultLocalScreenshotFolder` variable.
+Default local screenshot folder `~/Desktop` can be changed by the workflow `DefaultLocalScreenshotFolder` variable.
 
 ![Alfre Variable Local](doc/images/alfred-various-screenshots-variable-local.png?raw=true "")
            
@@ -52,3 +59,5 @@ Such generated access token shall be placed to the workflow `DropboxAccessToken`
 [1]: https://www.alfredapp.com/
 [2]: https://github.com/vookimedlo/alfred-various-screenshots/releases/latest
 [3]: https://www.dropbox.com/developers/apps
+[4]: https://www.dropbox.com/
+[5]: https://transfer.sh/
