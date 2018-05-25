@@ -4,8 +4,8 @@
 Currently supported storages are the following.
 - Local drive
 - Clipboard
-- [Dropbox][4] service with an ability to share a link on the uploaded screenshot.
-- [Transfer.sh][5] service with an ability to share a link on the uploaded screenshot.
+- [Dropbox][4] service with an ability to share a link to the uploaded screenshot.
+- [Transfer.sh][5] service with an ability to share a link to the uploaded screenshot.
 
 ## Installation
 1) Install [alfred-various-screenshots][2] workflow.
