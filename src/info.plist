@@ -421,7 +421,7 @@ fi</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>check your {var:DefaultScreenshotLocalFolder} directory</string>
+				<string>check your {var:DefaultLocalScreenshotFolder} directory</string>
 				<key>title</key>
 				<string>Screenshot taken</string>
 			</dict>
