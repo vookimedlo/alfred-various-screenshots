@@ -25,7 +25,7 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
-This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, or <kbd>⌃</kbd>.
+This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, <kbd>⌃</kbd> key, <kbd>⇧</kbd> key, or <kbd>Fn</kbd> key.
 
 - <key>⌘</key> - instructs the workflow to put a screenshot to the clipboard.
 - <key>⌥</key> - shares a screenshot via Dropbox and stores a sharing link to the clipboard.
