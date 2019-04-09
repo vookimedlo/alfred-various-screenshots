@@ -6,6 +6,8 @@ Currently supported storages are the following.
 - Clipboard
 - [Dropbox][4] service with an ability to share a link to the uploaded screenshot.
 - [Transfer.sh][5] service with an ability to share a link to the uploaded screenshot.
+- [0x0.st][6] service with an ability to share a link to the uploaded screenshot.
+- [File.io][7] service with an ability to share a link to the uploaded screenshot. After uploaded image is downloaded, the file is completely deleted!!!
 
 ## Installation
 1) Install [alfred-various-screenshots][2] workflow.
@@ -23,11 +25,13 @@ In Alfred, type `ss`, which stands for ScreenShot and initiates a submenu which 
 
 
 By default, the screenshot is stored in a file located at your `~/Desktop` directory.
-This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, or <kbd>⌃</kbd>.
+This could be overridden, either by pressing the <kbd>⌘</kbd> key, <kbd>⌥</kbd> key, <kbd>⌃</kbd> key, <kbd>⇧</kbd> key, or <kbd>Fn</kbd> key.
 
 - <key>⌘</key> - instructs the workflow to put a screenshot to the clipboard.
 - <key>⌥</key> - shares a screenshot via Dropbox and stores a sharing link to the clipboard.
 - <key>⌃</key> - shares a screenshot via Transfer.sh and stores a sharing link to the clipboard.
+- <key>⇧</key> - shares a screenshot via File.io and stores a sharing link to the clipboard.
+- <key>Fn</key> - shares a screenshot via 0x0.st and stores a sharing link to the clipboard.
 
 Screenshot files will be named according to the following pattern `screenshot_%Y-%m-%d_%H-%M-%S.png`
 
@@ -61,3 +65,5 @@ Such generated access token shall be placed to the workflow `DropboxAccessToken`
 [3]: https://www.dropbox.com/developers/apps
 [4]: https://www.dropbox.com/
 [5]: https://transfer.sh/
+[6]: https://0x0.st/
+[7]: https://file.io/
