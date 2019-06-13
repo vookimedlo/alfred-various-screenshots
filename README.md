@@ -1,5 +1,5 @@
 # alfred-various-screenshots
-[Alfred 3][1] workflow for taking various screenshots.
+[Alfred 4][1] workflow for taking various screenshots.
 
 Currently supported storages are the following.
 - Local drive
