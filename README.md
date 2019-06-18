@@ -1,4 +1,7 @@
 # alfred-various-screenshots
+
+![GitHub All Releases](https://img.shields.io/github/downloads/vookimedlo/alfred-various-screenshots/total.svg?style=popout)
+
 [Alfred 4][1] workflow for taking various screenshots.
 
 Currently supported storages are the following.
